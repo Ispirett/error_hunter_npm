@@ -18,12 +18,15 @@
 ###### Your token and app_name is in the dashboard on https://errorhunter.herokuapp.com
 
 ```javascript 1.8
+import ErrorHunter from "error_hunter"
 ErrorHunter.config('fixflex',' VrZYnbqXpJVVYdN8gEaizAd3')
+export default ErrorHunter
 ```
 ## Usage
 Logging an error is as simple as the code below.
 
  ```javascript 1.8
+import ErrorHunter from "from your where you setup the config file"
 ErrorHunter.add_error('TestAppError', 
 'Some error took place', 
 'An Exception was thrown',
