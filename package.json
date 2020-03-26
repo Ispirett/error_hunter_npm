@@ -1,0 +1,26 @@
+{
+  "name": "error_hunter",
+  "version": "1.0.0",
+  "description": "Realtime error tracking for live apps",
+  "main": "dist/error_hunter.bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "dev": "webpack --watch src --mode development"
+  },
+  "keywords": [
+    "errors",
+    "tracker",
+    "node",
+    "js"
+  ],
+  "author": "ispirett",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^13.9.3"
+  },
+  "devDependencies": {
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
