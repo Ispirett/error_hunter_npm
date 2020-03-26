@@ -1,10 +1,10 @@
-# ErrorHunter
+# ErrorHunter for javascript
 
 ## Realtime error tracking for live apps
 
 ## Installation
 ##### before installing make sure you have an account here! [errorhunter](https://errorhunter.herokuapp.com)
-######Add this line to your application's Gemfile:
+###### Add this line to your application's Gemfile:
 
 ```
   yarn add error_hunter || npm i error_hunter
