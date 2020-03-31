@@ -40,7 +40,7 @@ var Urls = /** @class */ (function () {
     function Urls() {
         this.production = 'https://errorhunter.herokuapp.com';
         this.developing = 'http://localhost:3000';
-        this.host = this.developing;
+        this.host = this.production;
         this.path_add_error = '/api/app_errors/';
     }
     return Urls;

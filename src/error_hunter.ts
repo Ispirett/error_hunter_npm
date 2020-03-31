@@ -17,7 +17,7 @@ interface AddErrorObject {
 class Urls {
     public production = 'https://errorhunter.herokuapp.com'
     public developing = 'http://localhost:3000';
-    public host = this.developing
+    public host = this.production;
     public path_add_error = '/api/app_errors/';
     constructor() {
     }
