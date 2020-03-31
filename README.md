@@ -1,5 +1,5 @@
 # ErrorHunter for javascript
-
+[![](https://data.jsdelivr.com/v1/package/npm/error_hunter/badge)](https://www.jsdelivr.com/package/npm/error_hunter)
 ## Realtime error tracking for live apps
 
 ## Installation
